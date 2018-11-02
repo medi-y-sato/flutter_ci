@@ -19,6 +19,9 @@ before_script:
 script:
   - ./flutter/bin/flutter test
   - ./flutter/bin/flutter build -v ios
+  # build/ios/iphoneos/Runner.app ができるので、fastlaneでビルド署名する
+  - ./flutter/bin/flutter build -v apk
+  # uild/app/outputs/apk/release/app-release.apk ができる
 
 cache:
   directories:
