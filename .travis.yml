@@ -1,5 +1,6 @@
 os: osx
 language: android
+osx_image: xcode10.1
 android:
   components:
     - tools
@@ -17,7 +18,7 @@ addons:
     sources:
       - ubuntu-toolchain-r-test
     packages:
-      - oracle-java8-installerosx_image: xcode10.1
+      - oracle-java8-installer
       - libstdc++6
       - fonts-droid
 before_script:
