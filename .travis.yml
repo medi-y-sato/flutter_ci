@@ -1,5 +1,6 @@
 os: osx
 language: android
+dist: precise
 osx_image: xcode10.1
 android:
   components:
